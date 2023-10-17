@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define n 20
 
-int a[n],i,val;
+int a[n],i,v,b;
 
 int linear_element(int a[],int v)
 {
@@ -15,9 +15,7 @@ int linear_element(int a[],int v)
 }
 int main ()
 {
-    int a[n],i,v,b;
-
-    for (i=0; i<=n; i++)
+   for (i=0; i<=n; i++)
     {
         a[i]=rand()%50;
     }
