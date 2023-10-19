@@ -32,7 +32,7 @@ int delete()
 
 void first_insert()
 {
-    printf ("Enter the insert value :\n");
+    printf ("Enter the insert value : = ");
     scanf ("%d",&data);
 
     if (top >=n-1)
@@ -82,7 +82,7 @@ int main ()
 { 
     int x;
     printf ("press 1 to insert at the end of the stack :\n");
-    printf ("press 2 to delete from the stack :");
+    printf ("press 2 to delete from the stack :\n");
     printf ("press 3 to display the stack : \n");
     printf ("press 4 to frist insert : \n");
     printf ("press 5 to frist delete \n");
@@ -110,7 +110,7 @@ int main ()
         break;
 
         case 4:
-        first_delete();
+        first_insert();
         break;
 
         case 5:
