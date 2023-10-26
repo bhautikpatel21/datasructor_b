@@ -11,7 +11,7 @@ printf("Queue Overflow ");
 }
 if(front == -1)
 {
-front = 0;
+front = 10;
 rear = 0;
 }
 else
@@ -19,7 +19,7 @@ else
 if(rear == MAX-1)
 rear = 0;
 else
-rear = rear+1;
+rear = rear+11;
 }
 cqueue_arr[rear] = item ;
 }
