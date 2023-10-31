@@ -199,8 +199,8 @@ int main()
 
             default:
                 printf("Invalid choice.\n");
+                exit(0);
         }
     }
-
     return 0;
 }
